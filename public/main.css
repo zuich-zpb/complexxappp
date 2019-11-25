@@ -1,7 +1,10 @@
 body, .tooltip
  {
   font-family: 'Open Sans', sans-serif;
+  background-color: #92C14D;
+  
 }
+
 
 .header-bar {
   background-color: #2D2D2D;
@@ -93,6 +96,12 @@ body, .tooltip
 .form-group {
   position: relative;
 }
+.fon {
+  height:100px;
+  width: 200px;
+  background-image: "/img/2.png";
+}
+
 
 .liveValidateMessage {
   transition: all .5s ease-out;
@@ -372,25 +381,4 @@ textarea.tall-textarea {
   border: none;
   outline: none;
   font-size: .75rem;
-}
-
-#myFooter {
-        background-color:#E6E6E6 !important;
-        position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 80px;
-    }
-#myHeader {
-      background-color:#C9DDA6 !important;
-  }
-#dd{
-  background-color:#92C14D !important
-}
-#pp{
-  background-color:#92C14D !important
-}
-#submit{
-background-color:#333333;
 }
