@@ -2,7 +2,7 @@ body, .tooltip
  {
   font-family: 'Open Sans', sans-serif;
   background-color: #92C14D;
-  
+
 }
 
 
@@ -96,11 +96,7 @@ body, .tooltip
 .form-group {
   position: relative;
 }
-.fon {
-  height:100px;
-  width: 200px;
-  background-image: "/img/2.png";
-}
+
 
 
 .liveValidateMessage {
@@ -381,4 +377,13 @@ textarea.tall-textarea {
   border: none;
   outline: none;
   font-size: .75rem;
+}
+
+#footer {
+  background-color: #f0eeeb;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
 }
