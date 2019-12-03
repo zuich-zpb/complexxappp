@@ -12,11 +12,13 @@ body, .tooltip
 
 .container--narrow {
   max-width: 732px;
+
 }
 
 .header-search-icon {
   position: relative;
   top: 3px;
+  
 }
 
 .header-chat-icon {
@@ -46,6 +48,7 @@ body, .tooltip
 .form-control-title {
   font-size: 2rem;
   font-weight: 500;
+  
 }
 
 .body-content {
@@ -63,11 +66,11 @@ body, .tooltip
 .input-dark {
   background-color: #444;
   border-color: transparent;
-  color: #FFFFFF;
+  color:#caedd0;
 }
 
 .input-dark:focus {
-  color: #FFFFFF;
+  color: #caedd0;
   background-color: #555;
   border-color: #80bdff;
   outline: 0;
@@ -119,6 +122,7 @@ body, .tooltip
 .form-group textarea {
   position: relative;
   z-index: 2;
+  
 }
 
 textarea.tall-textarea {
@@ -191,7 +195,7 @@ textarea.tall-textarea {
 }
 
 .search-overlay-top {
-  background-color: #FFF;
+  background-color: #caedd0;
   /* background-color: rgba(0, 0, 0, .79); */
 }
 
