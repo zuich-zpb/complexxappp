@@ -7,7 +7,7 @@
     "watch": "nodemon db",
     "start": "node db.js"
   },
-  "keywords": [],gi
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -37,3 +37,4 @@
     "webpack-cli": "^3.3.4"
   }
 }
+
