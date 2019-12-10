@@ -7,13 +7,14 @@ const csrf =require ("csurf")
 const app = express()
 const sanitizeHTML = require('sanitize-html')
 
+//this line of code tells express to automatically take submitted form data and add it to a body
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
 app.use("/api",require("./router-api"))
 
 let sessionOptions = session({
-  secret: "JavaScript is sooooooooo coool",
+  secret: "JavaScript",
   store: new MongoStore({client: require('./db')}),
   resave: false,
   saveUninitialized: false,
